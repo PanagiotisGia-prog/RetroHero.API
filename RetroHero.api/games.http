@@ -1,0 +1,39 @@
+GET http://localhost:5191/games
+
+// To have a new request first you must put three '#' characters.
+
+###
+GET http://localhost:5191/games/1
+
+###
+POST http://localhost:5191/games
+Content-Type: application/json
+
+{
+    "name": "Castlevania",
+    "genreId": 3,
+    "platformId": 2,
+    "price": 29.99,
+    "release": "1986-09-26"
+}
+
+###
+PUT http://localhost:5191/games/5
+Content-Type: application/json
+
+{
+    "name": "Silent Hill",
+    "genreId": 15,
+    "platformId": 3,
+    "price": 23.99,
+    "release": "1999-07-16"
+}
+
+###
+DELETE http://localhost:5191/games/6
+
+###
+GET http://localhost:5191/genres
+
+###
+GET http://localhost:5191/platforms

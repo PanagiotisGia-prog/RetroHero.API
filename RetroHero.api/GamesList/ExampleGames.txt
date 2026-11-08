@@ -1,0 +1,38 @@
+# This is a list of example games that can be added in the database
+
+Example games = [
+            // NES Games
+            (Id: 1,  Name: "Legend of Zelda",           Genre: "Action Adventure",     Platform: "NES",          Price: 32.99m, Release: (1987, 08, 22)),
+            (Id: 2,  Name: "Super Mario Bros",          Genre: "Platformer",           Platform: "NES",          Price: 14.99m, Release: (1985, 09, 13)),
+            (Id: 3,  Name: "Castlevania",               Genre: "Action Platformer",    Platform: "NES",          Price: 29.99m, Release: (1986, 09, 26)),
+            (Id: 4,  Name: "Final Fantasy",             Genre: "RPG",                  Platform: "NES",          Price: 17.99m, Release: (1987, 12, 18)),
+            (Id: 5,  Name: "Dragon Warrior",            Genre: "RPG",                  Platform: "NES",          Price: 9.99m,  Release: (1986, 05, 27)),
+
+            // PS1 Games
+            (Id: 6,  Name: "Silent Hill",               Genre: "Survival Horror",      Platform: "PS1",          Price: 39.99m, Release: new(1999, 07, 16)),
+            (Id: 7,  Name: "Tekken",                    Genre: "Fighting",             Platform: "PS1",          Price: 19.99m, Release: new(1995, 11, 07)),
+            (Id: 8,  Name: "Spiderman",                 Genre: "Action Adventure",     Platform: "PS1",          Price: 17.99m, Release: new(2000, 08, 30)),
+            (Id: 9,  Name: "Crash Bandicoot",           Genre: "Platformer",           Platform: "PS1",          Price: 37.99m, Release: new(1996, 11, 08)),
+            (Id: 10, Name: "Clock Tower",               Genre: "Survival Horror",      Platform: "PS1",          Price: 64.99m, Release: new(1998, 02, 10)),
+
+            // XBOX Games
+            (Id: 11, Name: "Ninja Gaiden",              Genre: "Action Adventure",     Platform: "XBOX",         Price: 16.99m, Release: new(2004, 03, 02)),
+            (Id: 12, Name: "Halo: Combat Evolved",      Genre: "FPS",                  Platform: "XBOX",         Price: 19.99m, Release: new(2001, 11, 15)),
+            (Id: 13, Name: "Fable",                     Genre: "RPG",                  Platform: "XBOX",         Price: 5.99m,  Release: new(2004, 09, 14)),
+            (Id: 14, Name: "Forza",                     Genre: "Racing",               Platform: "XBOX",         Price: 8.99m,  Release: new(2005, 05, 13)),
+            (Id: 15, Name: "FIFA Football 2003",        Genre: "Sport",                Platform: "XBOX",         Price: 5.99m,  Release: new(2002, 11, 12)),
+
+            // Sega Genesis Games
+            (Id: 16, Name: "Sonic The Hedgedog",        Genre: "Platformer",           Platform: "Sega Genesis", Price: 14.99m, Release: new(2006, 06, 23)),
+            (Id: 17, Name: "Disney's Aladdin",          Genre: "Action Platformer",    Platform: "Sega Genesis", Price: 6.99m,  Release: new(1993, 10, 19)),
+            (Id: 18, Name: "NBA Jam",                   Genre: "Sport",                Platform: "Sega Genesis", Price: 8.99m,  Release: new(1995, 02, 23)),
+            (Id: 19, Name: "Eternal Champions",         Genre: "Fighting",             Platform: "Sega Genesis", Price: 9.99m,  Release: new(1994, 01, 28)),
+            (Id: 20, Name: "Jurassic Park",             Genre: "Action Platformer",    Platform: "Sega Genesis", Price: 3.99m,  Release: new(1993, 09, 01)),
+
+            // MS-DOS Games
+            (Id: 21, Name: "Warcraft: Orcs and Humans", Genre: "RTS",                  Platform: "MS-DOS",       Price: 12.99m, Release: new(1994, 11, 15)),
+            (Id: 22, Name: "Doom",                      Genre: "FPS",                  Platform: "MS-DOS",       Price: 4.99m,  Release: new(1993, 12, 10)),
+            (Id: 23, Name: "Prince of Persia",          Genre: "Adventure Platformer", Platform: "MS-DOS",       Price: 22.99m, Release: new(1989, 10, 03)),
+            (Id: 24, Name: "Wolfenstein 3D",            Genre: "FPS",                  Platform: "MS-DOS",       Price: 4.99m,  Release: new(1992, 05, 02)),
+            (Id: 25, Name: "Duke Nukem 3D",             Genre: "FPS",                  Platform: "MS-DOS",       Price: 5.99m,  Release: new(1996, 01, 29)),
+        ]
