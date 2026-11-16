@@ -19,8 +19,8 @@ A learning REST API project for a retro game store, built with ASP.NET Core and 
 ## Run it
 Requires the .NET 10 SDK.
 
-    git clone https://github.com/PanagiotisGia-prog/<repo-name>.git
-    cd <repo-name>
+    git clone https://github.com/PanagiotisGia-prog/RetroHero.API
+
     dotnet run
 
 The database is created and seeded automatically on first run.
